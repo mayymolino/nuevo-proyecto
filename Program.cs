@@ -5,7 +5,7 @@ class Program
     static void Main(string[] args)
     {
         Random random = new Random();
-        int numeroAleatorio = random.Next(1, 05);
+        int numeroAleatorio = random.Next(1, 10);
         int intentos = 1;
         int intentosMaximos = 5;
         int intentoUsuario = 1;
